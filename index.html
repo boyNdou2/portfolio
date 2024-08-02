@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav class="du">
+            <ul class="aa">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Outils</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="aa"> 
+                <li><img src="./images/LinkedIn.png" alt="LinkedIn"></li>
+                <li><img src="./images/Behance.png" alt="Behance"></li>
+                <li><img src="./images/Twitter.png" alt="Twitter"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <h2>Doudou THIAM</h2>
+                    <p>Je suis un développeur web passionné avec une expérience <br> dans la création de sites web dynamiques et interactifs. <br>
+                        J'aime résoudre des problèmes complexes et apprendre de nouvelles technologies.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="./images/toff1.png" alt="logo" class="toff1 rounded-pill img-fluid">
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <section class="thiam">
+        <div class="container text-center">
+            <h3 class="nn">Mes Outils</h3>
+            <ul class="bb list-unstyled">
+                <li><img src="./images/html.png" alt="HTML"></li>
+                <li><img src="./images/css.jfif" alt="CSS"></li>
+                <li><img src="./images/bootstrap.png" alt="Bootstrap"></li>
+                <li><img src="./images/angular.png" alt="Angular"></li>
+                <li><img src="./images/laravel.png" alt="Laravel"></li>
+            </ul>
+        </div>
+    </section> 
+
+    <section id="projects" class="dudu">
+        <div class="container">
+            <h1>Mes Projets</h1>
+            <div>
+                <div class="project">
+                    <img src="./images/crud.png" alt="Projet 1" class="img-fluid">
+                    <h5>CRUD APP</h5>
+                    <p>Creation d'un formulaire CRUD avec Java. L'application CRUD <br>
+                        est un outil permettant de gérer les données de manière efficace <br>
+                        en offrant les fonctionnalités de base nécessaires à la manipulation <br>
+                        d'un ensemble d'informations. "CRUD" est l'acronyme de Create (Créer), <br>
+                        Read (Lire), Update (Mettre à jour), et Delete (Supprimer).</p>
+                </div>
+                <div class="project">
+                        <img src="./images/hotel.png" alt="Projet 2" class="img-fluid">
+                        <h5>Gestion hotel</h5>
+                        <p>Système de gestion d'hôtel avec React et Js. La Plateforme de Gestion d'Hôtel<br>
+                            est une solution tout-en-un conçue pour simplifier et automatiser les opérations <br>
+                            quotidiennes des établissements hôteliers, allant des petits bed and breakfast aux grands hôtels.<br>
+                            Cette plateforme permet aux gestionnaires d'hôtel de centraliser et d'optimiser la gestion de leurs activités,<br>
+                            tout en offrant une expérience utilisateur fluide et intuitive.</p>
+                </div>
+                <div class="project">
+                    <img src="./images/jungle.png" alt="Projet 3" class="img-fluid">
+                    <h5>Maisson Jungle</h5>
+                    <p>Création de la plateforme de vente de plantes en ligne.<br>
+                        Bienvenue sur Ma Maison Jungle, votre destination en lign<br>
+                        pour découvrir, acheter et recevoir les plus belles plantes <br>
+                        directement chez vous. Nous offrons une vaste sélection de plantes<br>
+                        d'intérieur et d'extérieur, allant des succulentes aux fougères luxuriantes,<br>
+                        en passant par des arbres exotiques et des plantes à fleurs colorées.</p>
+                </div>
+                <div class="project">
+                    <img src="./images/from-app.png" alt="Projet 4" class="img-fluid">
+                    <h5>From-App</h5>
+                    <p>Création d'une plateforme From-App. From-App est une plateforme intuitive<br>
+                        et puissante dédiée à la création, la gestion et l'analyse de formulaires en ligne.<br>
+                        Conçue pour simplifier le processus de collecte de données, From-App permet aux utilisateurs<br>
+                        de créer des formulaires personnalisés adaptés à divers besoins, qu'il s'agisse de sondages,<br>
+                        d'enquêtes, d'inscriptions ou de feedbacks clients.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="g">Contact</h2>
+            <form class="form">
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Nom :</label>
+                    <input type="text" class="form-control" id="nom" name="nom">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email :</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message :</label>
+                    <textarea class="form-control" id="message" name="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+   <footer>
+    <span><strong>Email: </strong>doudouthiiam06@gmail.com</span>
+   </footer>
+</body>
+</html>

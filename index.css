@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header {
+    background: #1B1B1B;
+    color: #fff;
+    padding: 1rem 0;
+}
+nav.du {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* about */
+section {
+    padding: 2rem 1rem;
+}
+section h2 {
+    margin-bottom: 1rem;
+}
+
+.about {
+    background: #1B1B1B;
+    color: #fff;
+}
+.toff1 {
+    background-color: white;
+    width: 100%;
+    max-width: 200px;
+    margin: 1rem auto;
+}
+
+/* Outils */
+.thiam {
+    margin-top: 2rem;
+}
+.bb {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.bb img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Projects */
+.dudu {
+    color: white;
+    background-color: #1B1B1B;
+    padding: 2rem 0;
+}
+.project {
+    margin-bottom: 2rem;
+}
+.project img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Contact */
+.contact {
+    background-color: white;
+    padding: 2rem 1rem;
+}
+.contact .form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact button {
+    width: 100%;
+    max-width: 150px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.contact button:hover {
+    background-color: #0056b3;
+}
+
+/* footer */
+footer {
+    background: #1B1B1B;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .about .container {
+        text-align: center;
+    }
+    .toff1 {
+        width: 100px;
+    }
+    .project {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .aa img {
+        width: 30px;
+        height: 30px;
+    }
+    .bb {
+        flex-direction: column;
+    }
+    .bb img {
+        width: 80px;
+        height: 80px;
+    }
+}
